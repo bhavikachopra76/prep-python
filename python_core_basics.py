@@ -53,3 +53,21 @@ print(func.__doc__)
 
 # Function call
 func("Bhavika")
+
+#Arithmentic Operations
+a1 = 3
+b1 = 2
+print(a1+b1)
+print(a1-b1)
+print(a1*b1)
+print(a1/b1)
+print(a1//b1)
+print(a1%b1)
+print(a1**b1)
+
+#Math Functions
+n = 2.957
+print(round(n,2))
+
+m = -1
+print(abs(m))
