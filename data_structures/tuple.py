@@ -1,4 +1,5 @@
 # working with tuples
+# immutable but can contain mutable items
 t = (1,2,3)
 print(t)  # prints the tuple
 print(len(t))  # length of tuple
