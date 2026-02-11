@@ -1,0 +1,39 @@
+file = open("filename.txt", "mode")
+
+Modes:
+'r' -> Read Mode
+~ Opens file for reading only
+~ File must exist, otherwise FileNotFoundError
+~ Pointer position is at the beginning of the file
+
+'w' -> Write Mode
+~ Opens file for writing
+~ If file exists → overwrites everything
+~ If file does not exist → creates new file
+~ Pointer position is at the beginning of the file
+
+'a' -> Append Mode
+~ Opens file for writing
+~ Adds content to end of file
+~ Creates file if it doesn’t exist
+~ Pointer position is at the end of the file
+
+'r+' -> Read + Write
+~ Opens file for both reading and writing
+~ File must exist
+~ Does NOT truncate file
+
+'w+' -> Read + Write
+~ Opens file for reading and writing
+~ Overwrites existing file
+~ Creates new file if not exists
+
+'a+' -> Append + Read
+~ Opens file for reading and writing
+~ Adds new data at end
+~ Creates file if not exists
+
+Why use 'with'?
+Normally, we use f.close() at the end
+but if error occurs before file is closed, file stays open
+but 'with' closes the file automatically even after an error
