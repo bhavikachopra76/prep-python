@@ -36,3 +36,12 @@ Modes:
 Why use 'with'?
 Normally, we use f.close() at the end but if error occurs before file is closed, file stays open
 But 'with' closes the file automatically even after an error
+
+seek()
+~ Moves the file cursor (pointer) to a specific position in the file.
+
+tell()
+~ Returns the current position of the file pointer.
+
+truncate()
+~ Resizes the file to a given number of bytes.

@@ -42,3 +42,17 @@ with open("demo.txt", "r") as f:  # automatically handles closing
 # Deleting a File
 
 os.remove("sample.txt")  # deletes file named 'sample.txt' from current directory
+
+# Using seek()
+with open("demo.txt" , "r") as f:
+    f.seek(5)
+    print(f.read())
+
+# Using tell()
+with open("demo.txt" , "r") as f:
+    print(f.tell())
+
+# Using truncate()
+with open("demo.txt" , "r+") as f:
+    f.truncate(13)
+    print(f.read())
