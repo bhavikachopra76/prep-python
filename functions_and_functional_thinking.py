@@ -37,3 +37,19 @@ print(add(1, 2, 3, 4)) # it can take any number of arguments
 def info(**kwargs):
     print(kwargs)
 info(name="bhavika", age=20)
+
+#Lambda Function
+l = [1,2,3,4,5]
+squares = list(map(lambda x : x**2 , l))
+print(squares)
+
+#Higher Order Functions
+#Maps
+lst = [1,2,3,4,5]
+cube = list(map(lambda x : x**3, lst))
+print(cube)
+
+#Filter
+lst2 = [1,2,3,4,5,6]
+even = list(filter(lambda x : x%2 == 0, lst2))
+print(even)
