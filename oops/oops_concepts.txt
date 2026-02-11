@@ -1,0 +1,14 @@
+Class -> A class is a blueprint for creating objects. It defines attributes and methods
+
+Object -> It is an instance of class, It is a real-world entity
+
+Constructor -> Special method that is automatically called when an object is created
+Constructor = “Set things up when the object is born.”
+
+Self -> it represents the current instance of the class. self = "This particular object"
+
+Object Attributes -> They are defined inside __init__ These are different for each object
+
+Class Attributes -> Shared by ALL Objects. Does not take extra objects
+
+Methods -> They are functions inside a class
