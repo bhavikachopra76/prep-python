@@ -53,7 +53,7 @@ print(re.search(r"\w+@\w+\.com", email)) # Basic email pattern match
 print(re.findall("(ab)+", "ab, abb, abbb"))  # Matches repeated 'ab' patterns
 print(re.findall("(cat|dog)s?", "i love cats and dog"))  # Matches cat(s) or dog(s)
 
-#re.match vs re.search
+#re.match
 
 match = "21 is my age"
 print(re.match(r"\d+", match)) # Matches because digits are at the start
