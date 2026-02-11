@@ -34,6 +34,5 @@ Modes:
 ~ Creates file if not exists
 
 Why use 'with'?
-Normally, we use f.close() at the end
-but if error occurs before file is closed, file stays open
-but 'with' closes the file automatically even after an error
+Normally, we use f.close() at the end but if error occurs before file is closed, file stays open
+But 'with' closes the file automatically even after an error
