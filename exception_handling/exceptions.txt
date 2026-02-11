@@ -1,0 +1,20 @@
+Exceptions are errors that interrupt the normal flow of the program
+-> Two types of errors:
+1) Syntax Errors -> Python does not even run the program
+2) Exceptions -> Code runs, but stops when something breaks
+
+Common Types of Exceptions:
+~ ZeroDivisionError -> Dividing by 0
+~ IndexError -> Accessing invalid list index
+~ KeyError -> Accessing missing dict key
+~ TypeError -> Invalid type operation
+~ Value Error -> Type is right, Value is wrong
+~ FileNotFoundError -> File doesn't exist
+
+Handle Exceptions:
+Try/Except -> handles exceptions gracefully by catching runtime errors and preventing abrupt program termination
+Else -> runs if no exception occurs
+Finally -> runs no matter what
+
+Custom Exceptions:
+User defined exception class inherited from Python's built-in Exception class.
