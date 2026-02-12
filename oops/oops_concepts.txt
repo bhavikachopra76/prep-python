@@ -12,3 +12,13 @@ Object Attributes -> They are defined inside __init__ These are different for ea
 Class Attributes -> Shared by ALL Objects. Does not take extra objects
 
 Methods -> They are functions inside a class
+
+Static Methods -> Methods that belongs to a class and does not depend on self or class data
+It is defined using the @staticmethod decorator
+
+Decorator -> A decorator wraps another function to enhance its functionality dynamically
+A decorator is like putting a filter on a function. The function remains the same. But now it behaves differently
+
+Abstraction -> Abstraction is the process of hiding implementation details and showing only essential features
+
+Encapsulation -> Encapsulation is the bundling of data and methods together and restricting direct access to data
