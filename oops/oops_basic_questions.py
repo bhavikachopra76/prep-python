@@ -1,3 +1,4 @@
+# Create a Student class with name, age, percentage and a greeting method.
 class Student:
     college_name = "Chitkara University"
     def __init__(self, name, age, percentage):
@@ -15,7 +16,7 @@ s1 = Student("Bhavika", 21, 98.5)
 func(s1)
 
 
-#Create student class that takes name & marks of 3 subjects as arguments in constructor.
+# Create student class that takes name & marks of 3 subjects as arguments in constructor.
 # Then create a method to print the average.
 
 class StudentInfo:
@@ -32,13 +33,9 @@ print(stu1.name)
 print(stu1.marks)
 print(stu1.average_marks())
 
-#Create Account class with 2 attributes - balance & account no.
-#Create methods for debit, credit & printing the balance.
+# Create Account class with 2 attributes - balance & account no.
+# Create methods for debit, credit & printing the balance.
 class Account:
-    @staticmethod
-    def greeting(): #Static Method
-        print("Your account has been stored to database")
-
     def __init__(self, balance, account_no):
         self.balance = balance
         self.account_no = account_no
@@ -55,9 +52,7 @@ class Account:
         print(f"Balance in your Account: ₹{self.balance}")
 
 Account1 = Account(1000, 855)
-Account1.greeting()
 Account1.get_balance()
 Account1.debit_money(100)
-Account1.get_balance()
 Account1.credit_money(200)
 Account1.get_balance()

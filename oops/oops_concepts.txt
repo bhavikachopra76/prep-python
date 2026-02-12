@@ -1,24 +1,31 @@
 Class -> A class is a blueprint for creating objects. It defines attributes and methods
 
-Object -> It is an instance of class, It is a real-world entity
+Object -> It is an instance of class, It is a real-world entity. A combination of data + behavior
 
 Constructor -> Special method that is automatically called when an object is created
 Constructor = “Set things up when the object is born.”
+In Python constructor is -> __init__()
 
 Self -> it represents the current instance of the class. self = "This particular object"
 
-Object Attributes -> They are defined inside __init__ These are different for each object
+Instance Attributes -> They are defined inside __init__(). These are different for each object.
 
-Class Attributes -> Shared by ALL Objects. Does not take extra objects
+Class Attributes -> Shared by ALL Objects. This does not occupy extra space for each object, it is stored once in memory
 
-Methods -> They are functions inside a class
-
+Methods -> They are functions inside a class.
+Instance Methods -> They use self, work with object data
+Class Methods -> They use cls, work with class level data
 Static Methods -> Methods that belongs to a class and does not depend on self or class data
 It is defined using the @staticmethod decorator
 
 Decorator -> A decorator wraps another function to enhance its functionality dynamically
 A decorator is like putting a filter on a function. The function remains the same. But now it behaves differently
 
-Abstraction -> Abstraction is the process of hiding implementation details and showing only essential features
+Encapsulation -> Encapsulation is the bundling of data and methods together and restricting direct access to data.
+Keeps data protected and allow access only through controlled methods.
 
-Encapsulation -> Encapsulation is the bundling of data and methods together and restricting direct access to data
+Abstraction -> Hide internal implementation details and show only essential features.
+
+Inheritance -> A child class acquires properties and behaviors of a parent class.
+
+Polymorphism ->  It the ability of different objects to respond to the same method call in different ways.
